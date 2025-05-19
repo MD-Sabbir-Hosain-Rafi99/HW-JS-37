@@ -136,3 +136,71 @@ console.log(array[2][3].name);
 // +====================================================================================+
 
 
+
+// +====================================================================================+
+// 5. String Methods................
+
+// String length;
+let name = "MD Sabbir Hosain Rafi";
+console.log(name.length);
+
+// String CharAt();
+let sirName = "Al-Amin Sir";
+console.log(sirName.charAt(0));
+
+// String slice()
+let myName = "MD Sabbir Hosain Rafi";
+console.log(myName.slice(0,9));
+// slice(0,9) myName variable y jei string value ase tar 0 number index er theke and 9 number index string 
+// value er vitore data show korbe.
+
+
+// String toUpperCase();
+let country1 = "Bangladesh";
+console.log(country1.toUpperCase());
+
+// String toLowerCase();
+let country2 = "Italy";
+console.log(country2.toLowerCase());
+
+// String concat()
+let firstName = "MD Sabbir Hosain";
+let lastName = "Rafi";
+console.log(firstName.concat(" ", lastName)); // Multiple sring value marge kore.
+
+// String trimStart()
+let phoneNumber = "     0190      ";
+console.log(phoneNumber.trim()); // Space remove kore dy
+
+// String repeat()
+let abc = "123445";
+console.log(abc.repeat(2)); // String type data koto bar repate korbo oita repeat(method er vitore bolty hobe).
+
+// Replacing String
+let fruits = "Apple, Banana, Mango";
+console.log(fruits);
+console.log(fruits.replace("Banana", "Lichi")); // String er vitore value replace kore dy replace("Jeitar bodoly replace korbo", "Replace kore new value oikhany assign kore");
+
+// String ReplaceAll()
+let bioData = "Hi this is MD Sabbir Hosain Rafi";
+console.log(bioData.replaceAll("Hosain Rafi", ""));
+
+// String split()
+let data = "a,b,c,d,e,f,g,h";
+let myArray = data.split(",") // Array ty convert korche
+console.log(myArray);
+
+// String parseInt()
+let id = "12345";
+console.log(parseInt(id));
+// +====================================================================================+
+
+
+
+// +====================================================================================+
+// 6. Number Methods................
+
+// toString() Method
+let idNumber = 12345;
+console.log(idNumber.toString());
+// +====================================================================================+
